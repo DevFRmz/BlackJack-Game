@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-background">
+            <h1 class="titulo">BlackJack</h1>
+        </div>
+    </header>
+
+    <section>
+        <nav class="botones">
+            <button class="btn" id="btn-newGame">New Game</button>
+            <button class="btn" id="btn-getCard">Get Card</button>
+            <button class="btn" id="btn-stop">Stop</button>
+        </nav>
+    </section>
+
+    <main>
+        <div class="jugadores-grid">
+            <div class="jugador">
+                <h2>You: <small>0</small></h2>
+                <div class="jugador-cartas">
+              
+                </div>
+            </div>
+
+            <div class="winOrlose"></div>
+
+            <div class="jugador">
+                <h2>Computer: <small>0</small></h2>
+                <div class="jugador-cartas">
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="created">Created by Felipe Ramirez</p>
+    </footer>
+
+    <script src="assets/JavaScript/juego.js"></script>
+</body>
+</html>
